@@ -60,3 +60,9 @@ body{
     font-size: 20px;
     letter-spacing: 1px;
 }
+
+/* this styling for content h3 h2  */
+.content h2,.content h3{
+    font-size: 150%;
+    margin: 10px 0;
+}
