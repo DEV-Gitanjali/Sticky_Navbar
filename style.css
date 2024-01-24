@@ -25,8 +25,17 @@ body{
     left: 0;
     right: 0;
     transition: all 0.3s ease-in-out;
+}
+/* this styling for nav container */
+.nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    transition: all 0.3s ease-in-out;
+}
 
-  }
+
 
 
 
