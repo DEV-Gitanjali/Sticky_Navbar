@@ -19,6 +19,8 @@ body{
 
   /* @todo nav */
 
+
+
   /* this styling for hero section */
   .hero{
     background-image: url('https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
@@ -33,4 +35,28 @@ body{
  text-align: center;
  position: relative;
  margin-bottom:20px ;
+ z-index: -2;
   }
+
+  /* this  code for before hero section */
+  .hero::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.5);
+    z-index: -1;
+  }
+
+  /* this styling for hero heading  */
+.hero h1{
+    font-size: 46px;
+    margin: -20px 0 20px;
+} 
+/* this styling for hero paragraph */
+.hero p{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
