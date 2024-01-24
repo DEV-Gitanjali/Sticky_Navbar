@@ -31,7 +31,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    padding: 10px 0;
     transition: all 0.3s ease-in-out;
 }
 
@@ -63,8 +63,14 @@ body{
   /* this line code for  nav active container */
   .nav.nav.active.container{
     padding: 10px 0;
+}
 
-  }
+.nav.a.current,.nav a:hover{
+    color: #c0392b;
+    font-weight: bold;
+    
+}
+
   
 
 
